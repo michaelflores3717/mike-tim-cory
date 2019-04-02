@@ -2,35 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Log in screen</title>
-    <link rel="stylesheet" href="pro_log_in.css">
+    <title>Pro log in screen</title>
+
+<!––Extenal links---------------------------------------------------------------------------------––>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<!––Internal links---------------------------------------------------------------------------------––>
+    <link rel="stylesheet" href="pro_log_in.css">
 </head>
 <body>
 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+
+<!–Buttons list---------------------------------------------------------------------------------->\
+<!–----Logo-------------------------------------------------------------------------------------->
+<!–--------#logo--------------------------------------------------------------------------------->
+<!–----Input username---------------------------------------------------------------------------->
+<!–--------#pro_username------------------------------------------------------------------------->
+<!–----Input password---------------------------------------------------------------------------->
+<!–--------#pro_password------------------------------------------------------------------------->
+
+
+
 
 <div class="wrapper fadeInDown">
     <div id="formContent">
-        <!-- Tabs Titles -->
 
-        <!-- Icon -->
+<!–Logo-------------------------------------------------------------------------------------------->
         <div class="fadeIn first">
-            <img src="logo_black.png" id="icon" alt="User Icon" />
+            <img src="../images/full_logo_black.png" id="logo" alt="User Icon" />
         </div>
 
-        <!-- Login Form -->
+<!–Log in form------------------------------------------------------------------------------------->
         <form>
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+            <input type="text" id="pro_username" class="fadeIn second" name="login" placeholder="username">
+            <input type="text" id="pro_password" class="fadeIn third" name="login" placeholder="password">
             <input type="submit" class="fadeIn fourth" value="Log In">
 
         </form>
 
-        <!-- Remind Passowrd -->
+<!–Log in form------------------------------------------------------------------------------------->
         <div id="formFooter">
             <a class="underlineHover" href="../pro_dashboard/pro_dashboard_template.html">Forgot Password?</a>
         </div>
@@ -38,9 +51,8 @@
     </div>
 
 
-
-
-    <script src = "pro_log_in.js"> </script>
+<!–Internal links---------------------------------------------------------------------------------––>
+<script src = "pro_log_in.js"> </script>
 </div>
 </body>
 </html>
